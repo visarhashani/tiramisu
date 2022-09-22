@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order form</title>
+</head>
+<body>
+    <form method="get"> 
+        <fieldset>
+            <legend>Personal Details</legend>
+        <input type="text" name="Name" id="Name" placeholder="Name" minlength="2" maxlength="20" required/>
+        <input type="text" name="Surname" id="Surname" placeholder="Surname" required/>
+        <br><br>
+        <input type="radio" name="Gender" value="Male" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" id="Female">
+        <label for="Female">Female</label>
+        <input type="date" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth" required/>
+        <br>
+        <br>
+        <input type="Email" name="Email" id="Email" placeholder="Email"/>
+        <br>
+        <input type="tel" name="phone" id="phone" placeholder="Phone Number"/>
+        <br>
+        <input type="addres" name="Address" id="Address" placeholder="Address First Line" required>
+        <input type="addres" name="Address" id="Address" placeholder="Address Second Line">
+        <br>
+        <input type="zipcode" name="zipcode" id="zipcode" placeholder="zipcode" required>
+    </fieldset>
+    <fieldset>
+     <legend>Order Details</legend>
+     <label for="Categoris">Drinks</label>
+     <select name="Categoris" id="Categoris"</select>
+        <optgroup label="Drinks">Drinks</optgroup>
+        <option>Coca Cola</option>
+        <option>Fanta</option>
+        <option>Sprite</option>
+
+        <input type="number" name="Quantity" id="Quantity" min="0">
+        <br>
+        <label for="Categoris">Kids</label>
+        <select name="Categoris" id="Categoris"</select>
+           <optgroup label="Kids">Kids</optgroup>
+           <option>Kids Drink Size</option>
+           <option>Kids Food</option>
+           <option>Kids Desert</option>
+           <input type="number" name="Quantity" id="Quantity" min="0">
+        <br>
+        <label for="Categoris">Desert</label>
+        <select name="Categoris" id="Categoris"</select>
+           <optgroup label="Desert">Desert</optgroup>
+           <option>Tiramisu</option>
+           <option>Baklava</option>
+           <option>Ice Cream</option>
+           <input type="number" name="Quantity" id="Quantity" min="0">
+        <br>
+
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset"/>
+    </fieldset>
+    </form>
+
+        
+
+</body>
+</html>
