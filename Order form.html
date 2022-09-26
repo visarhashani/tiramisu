@@ -7,11 +7,11 @@
     <title>Order form</title>
 </head>
 <body>
-    <form method="get"> 
+    <form method="get" width="300" height="300"> 
         <fieldset>
             <legend>Personal Details</legend>
-        <input type="text" name="Name" id="Name" placeholder="Name" minlength="2" maxlength="20" required/>
-        <input type="text" name="Surname" id="Surname" placeholder="Surname" required/>
+        <input type="text" name="Name" id="Name" placeholder="Name" minlength="2" maxlength="20" size="10" required/>
+        <input type="text" name="Surname" id="Surname" placeholder="Surname" size="25" required/>
         <br><br>
         <input type="radio" name="Gender" value="Male" id="Male">
         <label for="Male">Male</label>
@@ -27,42 +27,43 @@
         <input type="addres" name="Address" id="Address" placeholder="Address First Line" required>
         <input type="addres" name="Address" id="Address" placeholder="Address Second Line">
         <br>
-        <input type="zipcode" name="zipcode" id="zipcode" placeholder="zipcode" required>
+        <input type="zipcode" name="Zipcode" id="zipcode" placeholder="Zipcode" required>
     </fieldset>
     <fieldset>
      <legend>Order Details</legend>
-     <label for="Categoris">Drinks</label>
+     <label for="Categoris"><b>Drinks</b></label>
      <select name="Categoris" id="Categoris"</select>
         <optgroup label="Drinks">Drinks</optgroup>
         <option>Coca Cola</option>
         <option>Fanta</option>
         <option>Sprite</option>
-
-        <input type="number" name="Quantity" id="Quantity" min="0">
+        <input type="number" name="Quantity" id="Quantity" placeholder="Quantity" min="0">
         <br>
-        <label for="Categoris">Kids</label>
+        <label for="Categoris"><b>Kids</b></label>
         <select name="Categoris" id="Categoris"</select>
            <optgroup label="Kids">Kids</optgroup>
            <option>Kids Drink Size</option>
            <option>Kids Food</option>
            <option>Kids Desert</option>
-           <input type="number" name="Quantity" id="Quantity" min="0">
+           <input type="number" name="Quantity" id="Quantity" placeholder="Quantity" min="0">
         <br>
-        <label for="Categoris">Desert</label>
+        <label for="Categoris"><b>Desert</b></label>
         <select name="Categoris" id="Categoris"</select>
            <optgroup label="Desert">Desert</optgroup>
            <option>Tiramisu</option>
            <option>Baklava</option>
            <option>Ice Cream</option>
-           <input type="number" name="Quantity" id="Quantity" min="0">
+           <input type="number" name="Quantity" id="Quantity" placeholder="Quantity" min="0">
         <br><br>
 
         <input type="checkbox" name="Information" value="check if you want to get emails about new ofers" id="Ofers" >
         <label for="Ofers">Check if you want to get emails about new ofers!</label>
         <br><br>
-
+        <textarea name="message" id="message" placeholder="Special Requests" cols="37" rows="4" ></textarea>
+        <br><br>
         <input type="submit" value="Submit"/>
         <input type="reset" value="Reset"/>
+        <p><a href="index.html" ><b>Back to main page</b> </a></p>
     </fieldset>
     </form>
 </body>
