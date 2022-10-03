@@ -5,29 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order form</title>
+    <link rel="stylesheet" type="Text/css" href="./Style.css">
 </head>
 <body>
-    <form method="get" width="300" height="300"> 
+    <form method="get" width="200" height="400"> 
         <fieldset>
             <legend>Personal Details</legend>
-        <input type="text" name="Name" id="Name" placeholder="Name" minlength="2" maxlength="20" size="10" required/>
+        <input type="text" name="Name" id="Name" placeholder="Name" minlength="2" maxlength="20" size="10" required />
         <input type="text" name="Surname" id="Surname" placeholder="Surname" size="25" required/>
         <br><br>
         <input type="radio" name="Gender" value="Male" id="Male">
         <label for="Male">Male</label>
         <input type="radio" name="Gender" value="Female" id="Female">
         <label for="Female">Female</label>
-        <input type="date" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth" required/>
+        <input type="date" name="Date of Birth" id="date" placeholder="Date of Birth" required/>
         <br>
         <br>
         <input type="Email" name="Email" id="Email" placeholder="Email"/>
-        <br>
         <input type="tel" name="phone" id="phone" placeholder="Phone Number"/>
         <br>
         <input type="addres" name="Address" id="Address" placeholder="Address First Line" required>
         <input type="addres" name="Address" id="Address" placeholder="Address Second Line">
         <br>
-        <input type="zipcode" name="Zipcode" id="zipcode" placeholder="Zipcode" required>
+        <input type="zipcode" name="Zipcode" id="zipcode" placeholder="Zipcode" required >
     </fieldset>
     <fieldset>
      <legend>Order Details</legend>
@@ -59,10 +59,10 @@
         <input type="checkbox" name="Information" value="check if you want to get emails about new ofers" id="Ofers" >
         <label for="Ofers">Check if you want to get emails about new ofers!</label>
         <br><br>
-        <textarea name="message" id="message" placeholder="Special Requests" cols="37" rows="4" ></textarea>
+        <textarea name="message" id="message" placeholder="Special Requests" cols="47" rows="7" ></textarea>
         <br><br>
-        <input type="submit" value="Submit"/>
-        <input type="reset" value="Reset"/>
+        <input type="submit" value="Submit" class="button"/>
+        <input type="reset" value="Reset" class="button"/>
         <p><a href="index.html" ><b>Back to main page</b> </a></p>
     </fieldset>
     </form>

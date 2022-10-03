@@ -1,0 +1,110 @@
+*{ 
+    font-style:italic;
+}
+h1 {
+    color:bisque;
+    background-color: rgb(102,122,143);
+    border: 8px solid rgba(207, 83, 10, 0.164);
+    font-size: 35px;
+    padding-left: 1px;
+    margin-left: 8px;
+    text-shadow: 5px 5px 10px rgb(121, 11, 11)
+}
+p{
+    color: black;
+    border-bottom: 5px solid;
+    background-color: rgba(115, 125, 134, 0.753);
+    }
+h3{
+    border: 20px double gainsboro;
+    padding: 15px;
+    margin: 5px;
+}
+td img{
+    border: 5px;
+    border-style: dashed;
+    border-radius: 155px;
+}
+ul{
+    list-style-type: circle;
+    color: darkslategrey;
+}
+#tiramisu{
+align-items: center;
+border: 1px;
+padding: 0px 100px;
+background-color: beige;    
+}
+a:hover{
+    background-color: bisque;
+}
+
+audio {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin: 2px 160px;
+    border: 2px solid rgba(139, 4, 4, 0);
+    
+}
+video{
+    border: 2px ;
+    padding: 3px 120px;
+    margin: 0px 70px;
+}
+iframe{
+    border: 2px solid whitesmoke;
+    padding: 5px 120px;
+    margin: 5px 70px
+}
+form{
+    border: 2px solid black;
+    margin: 50px 100px;
+    background-color:antiquewhite;
+    transform: translate(0%, 10%) ;
+    box-shadow: 58px 55px 52px 90px rgba(28, 26, 26, 0.5);
+    font-size:large;
+    }
+#Name{
+    border: 1px solid black;
+    padding-right: 20px;
+    margin-right: 20px;
+        ;
+}
+#Surname{
+    border: 1px solid black;
+}
+#date{
+    border: 1px solid black;
+    padding: 0px 20px;
+    margin-left: 20px;
+}#Email{
+    border: 1px solid black;
+}#phone{
+    border: 1px solid black;
+    margin-left: 5px;
+    
+}#Address{
+    border: 1px solid black;
+    margin-right: 5px;
+}#zipcode{
+    border: 1px solid black;
+}
+#Quantity{
+    border: 1px solid black;
+    margin-left: 15px
+}
+#message{
+    border: 2px solid black;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    box-shadow:15px 15px 15px  rgba(28, 26, 26, 0.5)
+}
+.button{
+    border-left: 4px dotted black;
+    padding-left: 50px; 
+    margin-left: 20px;
+    background-color: aliceblue;
+    box-shadow:15px 15px 15px  rgba(28, 26, 26, 0.5);
+    block-size: 37px;
+}
